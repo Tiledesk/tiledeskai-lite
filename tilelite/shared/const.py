@@ -1,15 +1,5 @@
 import os
 
-STREAM_NAME = "stream:single"
-STREAM_CONSUMER_NAME = "llmconsumer"
-STREAM_CONSUMER_GROUP = "llmconsumergroup"
-
-PINECONE_API_KEY = None
-PINECONE_INDEX = None
-PINECONE_TEXT_KEY = None
-VOYAGEAI_API_KEY = None
-JWT_SECRET_KEY = None
-
 contextualize_q_system_prompt = """Given a chat history and the latest user question \
                         which might reference context in the chat history, formulate a standalone question \
                         which can be understood without the chat history. Do NOT answer the question, \

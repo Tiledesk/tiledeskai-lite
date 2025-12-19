@@ -1,5 +1,5 @@
 # STAGE 1: LLM
-FROM python:3.12
+FROM python:3.13
 
 WORKDIR /tiledeskai-lite
 

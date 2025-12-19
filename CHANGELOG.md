@@ -2,9 +2,12 @@
 
 ### **Authors**: 
     *Gianluca Lorenzo*
-    *Andrea Sponziello* 
 ### **Copyrigth**: *Tiledesk SRL*
 
+## [2025-03-13]
+### 0.1.0-rc1
+- Update: langchain 1.2.0 
+- Added: support to vLLM
 
 ## [2025-03-13]
 ### 0.1.0-rc1
